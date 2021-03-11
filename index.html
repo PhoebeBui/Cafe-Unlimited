@@ -2,8 +2,16 @@
 <html> 
 <head>
     <title>Cafe Unlimited - Home</title> 
+<script>
+    function bigger(){
+        document.fetElementById('body').style.fontSize='x-large';
+    }
+    function smaller(){
+        document.getElementById('body').style.fontSize='medium';
+    }
+</script>
 </head>
-<body>
+<body style="background-color: lightsteelblue">
 <!-- Banner -->
 <p>
      <img src ="images/banner.png.png" alt="Cafe Unlimited - Banner">
@@ -21,7 +29,7 @@
 
 <!--Javascript -->
 <button type="button" onclick="bigger()">Bigger</button>
-            <button type="button" onclick="smaller()">Smaller</button>          
+<button type="button" onclick="smaller()">Smaller</button>          
 <h1>Welcome</h1>
 <p>Welcome to Cafe Unlimited. We serve award winning breakfasts and lunches, 
     with unlimited coffee, tea, and soft drinks.
